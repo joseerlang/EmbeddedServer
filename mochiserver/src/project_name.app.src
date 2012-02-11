@@ -1,0 +1,9 @@
+%% -*- erlang -*-
+{application, project_name,
+ [{description, "project_name"},
+  {vsn, "0.1"},
+  {modules, []},
+  {registered, []},
+  {mod, {'project_name_app', []}},
+  {env, []},
+  {applications, [kernel, stdlib, crypto]}]}.
